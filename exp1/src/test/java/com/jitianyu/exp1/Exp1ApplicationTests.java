@@ -8,6 +8,9 @@ class Exp1ApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// how to
+		// GreetingClient client = new GreetingClient();
+		// System.out.println(client.getResult());
 	}
 
 }

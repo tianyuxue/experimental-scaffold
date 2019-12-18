@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exp1Application",
+            "request": "launch",
+            "mainClass": "com.jitianyu.exp1.Exp1Application",
+            "projectName": "exp1"
+        }
+    ]
+}
