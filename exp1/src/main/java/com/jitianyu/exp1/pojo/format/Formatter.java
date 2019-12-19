@@ -19,6 +19,4 @@ public class Formatter {
     public void formate() {
         formatStategy.format();
     }
-
-    
 }
