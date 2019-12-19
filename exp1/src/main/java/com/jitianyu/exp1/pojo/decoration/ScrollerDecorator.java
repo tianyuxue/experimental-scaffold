@@ -8,7 +8,7 @@ import com.jitianyu.exp1.pojo.basic.Rectangle;
 /**
  * Scroller
  */
-public class Scroller implements Glyph {
+public class ScrollerDecorator implements Glyph {
     private Glyph glyph;
 
     @Override

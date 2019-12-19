@@ -5,9 +5,11 @@ import com.jitianyu.exp1.pojo.basic.Point;
 import com.jitianyu.exp1.pojo.basic.Rectangle;
 
 /**
- * Border use decorate Model to extends the responsibility of glyph
+ * Border use decorator model to extends the responsibility of glyph. alias
+ * wrapper model. a decorator expose the same interface as the real one. it's
+ * used to add new responsibilities to a single object, not the whole class
  */
-public class Border implements Glyph {
+public class BorderDectorator implements Glyph {
     private Glyph glyph;
 
     /**
@@ -15,7 +17,7 @@ public class Border implements Glyph {
      * 
      * @param glyph
      */
-    public Border(Glyph glyph) {
+    public BorderDectorator(Glyph glyph) {
         this.glyph = glyph;
     }
 
