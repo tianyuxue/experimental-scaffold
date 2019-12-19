@@ -1,4 +1,4 @@
-package com.jitianyu.exp1.pojo;
+package com.jitianyu.exp1.pojo.basic;
 
 /**
  * @author jitianyu
