@@ -1,5 +1,7 @@
 package com.jitianyu.exp1.pojo.basic;
 
+import com.jitianyu.exp1.pojo.window.Window;
+
 /**
  * @author jitianyu
  * @date 2019-12-19
@@ -10,7 +12,7 @@ public interface Glyph {
      * 
      * @return json formatted picture info
      */
-    String Draw();
+    void Draw(Window window);
 
     /**
      * responsebility: apprearance

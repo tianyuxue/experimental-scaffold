@@ -4,6 +4,7 @@ package com.jitianyu.exp1.pojo.decoration;
 import com.jitianyu.exp1.pojo.basic.Glyph;
 import com.jitianyu.exp1.pojo.basic.Point;
 import com.jitianyu.exp1.pojo.basic.Rectangle;
+import com.jitianyu.exp1.pojo.window.Window;
 
 /**
  * Scroller
@@ -12,8 +13,8 @@ public class ScrollerDecorator implements Glyph {
     private Glyph glyph;
 
     @Override
-    public String Draw() {
-        return this.glyph.Draw();
+    public void Draw(Window window) {
+        this.glyph.Draw(window);
     }
 
     @Override
