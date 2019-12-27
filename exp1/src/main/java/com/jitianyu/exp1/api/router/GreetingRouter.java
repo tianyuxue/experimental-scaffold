@@ -1,6 +1,6 @@
-package com.jitianyu.exp1.router;
+package com.jitianyu.exp1.api.router;
 
-import com.jitianyu.exp1.handler.GreetingHandler;
+import com.jitianyu.exp1.api.handler.GreetingHandler;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

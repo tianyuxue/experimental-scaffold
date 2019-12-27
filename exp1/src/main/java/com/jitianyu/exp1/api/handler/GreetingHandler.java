@@ -1,4 +1,4 @@
-package com.jitianyu.exp1.handler;
+package com.jitianyu.exp1.api.handler;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
