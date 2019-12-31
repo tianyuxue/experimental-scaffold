@@ -1,0 +1,7 @@
+javac Singleton.java
+java -verbose:class Singleton
+
+java -cp ../lib/asmtools.jar org.openjdk.asmtools.jdis.Main Singleton$LazyHolder.class > Singleton$LazyHolder.jasm.1
+awk 'NR==1,/stack 1/{sub(/stack 1/, "stack 0")} 1' Singleton$LazyHolder.jasm.1 > Singleton$LazyHolder.jasm
+java -cp ../lib/asmtools.jar org.openjdk.asmtools.jasm.Main Singleton$LazyHolder.jasm
+java -verbose:class Singleton
