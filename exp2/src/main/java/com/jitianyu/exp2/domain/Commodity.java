@@ -1,4 +1,4 @@
-package com.jitianyu.exp1.domain;
+package com.jitianyu.exp2.domain;
 
 import java.time.Instant;
 

@@ -1,4 +1,4 @@
-package com.jitianyu.exp1;
+package com.jitianyu.exp2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.jitianyu.exp1;
+package com.jitianyu.exp2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

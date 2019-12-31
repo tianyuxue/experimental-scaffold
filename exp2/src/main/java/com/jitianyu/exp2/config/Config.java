@@ -1,4 +1,4 @@
-package com.jitianyu.exp1.config;
+package com.jitianyu.exp2.config;
 
 import javax.sql.DataSource;
 

@@ -6,6 +6,8 @@ package exp1;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+import com.jitianyu.exp1.App;
+
 public class AppTest {
     @Test public void testAppHasAGreeting() {
         App classUnderTest = new App();

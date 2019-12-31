@@ -1,8 +1,8 @@
-package com.jitianyu.exp1.databases;
+package com.jitianyu.exp2.databases;
 
 import java.util.Optional;
 
-import com.jitianyu.exp1.domain.Commodity;
+import com.jitianyu.exp2.domain.Commodity;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
